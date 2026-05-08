@@ -18,7 +18,7 @@
 
 I'm a Senior Software Engineer and Technical Lead with **10+ years** of experience building secure, scalable, and compliant platforms for fintech and banking. I design cloud-native, microservices-based systems on **.NET Core, Java, Kotlin, and Angular**, and I've delivered mission-critical services handling **1M+ daily transactions** in regulated UK financial environments (KYC, AML, GDPR, FCA).
 
-- Currently leading engineering at **Mortgage Magic (TS Asset Management Ltd)** in London
+- Currently leading engineering at **Mortgage Magic Ltd** in London
 - Building mortgage origination, sourcing, and lender-integration platforms for the UK market
 - Comfortable across the stack: from domain-driven backend architecture to Angular/React front ends and AWS / GCP / IBM Cloud deployments
 - Open to **Senior / Lead / Architect** roles in banking and fintech
