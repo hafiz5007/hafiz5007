@@ -18,10 +18,25 @@
 
 I'm a Senior Software Engineer and Technical Lead with **10+ years** of experience building secure, scalable, and compliant platforms for fintech and banking. I design cloud-native, microservices-based systems on **.NET Core, Java, Kotlin, and Angular**, and I've delivered mission-critical services handling **1M+ daily transactions** in regulated UK financial environments (KYC, AML, GDPR, FCA).
 
-- Currently leading engineering at **Mortgage Magic Ltd** in London
+- Currently leading engineering at **Mortgage Magic (TS Asset Management Ltd)** in London
 - Building mortgage origination, sourcing, and lender-integration platforms for the UK market
 - Comfortable across the stack: from domain-driven backend architecture to Angular/React front ends and AWS / GCP / IBM Cloud deployments
 - Open to **Senior / Lead / Architect** roles in banking and fintech
+
+**Now:** reading _Designing Data-Intensive Applications_, sharpening on distributed systems + system design, targeting Senior / Lead roles in UK fintech.
+
+---
+
+### Portfolio projects
+
+Four hands-on projects that show how I actually design + build things. Each one is Clean Architecture, dockerised, CI-enabled, with a README that documents the trade-offs.
+
+| Project | Stack | What it demonstrates |
+| --- | --- | --- |
+| [**auth-reference-dotnet**](https://github.com/hafiz5007/auth-reference-dotnet) | .NET 10 · OpenIddict · Postgres · Redis · Docker | OAuth 2.0 / OIDC identity provider with **immediate JWT revocation** via `tv`-claim + Redis. Refresh-token rotation with reuse detection. Five-project Clean Architecture (Domain / Application / Infrastructure / Server / Resource-Api). |
+| [**payments-ledger-demo**](https://github.com/hafiz5007/payments-ledger-demo) | Java 21 · Spring Boot 3 · Postgres · Kafka · Testcontainers | Double-entry accounting ledger with **balancing invariant enforced in the type system**. Effectively-once payment processing via idempotency + outbox pattern. Kafka consumer with DLT + relay worker. Four Gradle modules. |
+| [**kyc-screening-service**](https://github.com/hafiz5007/kyc-screening-service) | Kotlin · Spring Boot 3 · MongoDB · Docker | Sanctions + PEP screening with **framework-free domain sub-module** (compiler-enforced dependency rule). Jaro-Winkler scoring with token-sort symmetry, DOB + country weighting. Explainable REVIEW / HIT decisions. |
+| [**uk-address-lookup-service**](https://github.com/hafiz5007/uk-address-lookup-service) | .NET 10 · Minimal APIs · Docker | High-performance UK address lookup service — the same shape as a 30M+ record system I built at scale, rebuilt as a public reference. |
 
 ---
 
@@ -78,7 +93,9 @@ I'm a Senior Software Engineer and Technical Lead with **10+ years** of experien
 
 ---
 
-### Selected work
+### Career highlights
+
+Production systems shipped over 10+ years, primarily at Mortgage Magic (TS Asset Management Ltd) in London:
 
 | Domain | What I built | Scale & impact |
 | --- | --- | --- |
