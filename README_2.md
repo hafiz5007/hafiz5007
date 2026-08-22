@@ -14,7 +14,7 @@ I'm a Senior Software Engineer and Technical Lead with 10+ years of experience b
 - **Own the cloud platform end to end** — self-managed AWS and GCP, networking, database replication, backup and disaster recovery, configuration and release management
 - Comfortable across the stack: domain-driven backend architecture through to Angular / React front ends and AWS / GCP / IBM Cloud deployments
 
-**Open to Senior, Technical Lead, Backend Architect and Lead Engineer roles in banking, fintech, mortgage technology, core banking and payments — London or remote.**
+**Open to Principal Engineer, Head of Engineering, Technical Lead, Backend Architect and Senior Engineer roles in banking and fintech — London or remote.**
 
 ## Portfolio projects
 
@@ -62,7 +62,7 @@ Production systems shipped over 10+ years, primarily at Mortgage Magic in London
 
 ## Get in touch
 
-I'm currently open to **Senior, Technical Lead, Backend Architect and Lead Engineer** roles in banking, fintech, mortgage technology, core banking and payments.
+I'm currently open to **Principal, Lead, Architect and Head of Engineering** roles in banking and fintech.
 
 - **LinkedIn** — [linkedin.com/in/hafizrahmanuk](https://www.linkedin.com/in/hafizrahmanuk)
 - **Email** — smhrcse@gmail.com
