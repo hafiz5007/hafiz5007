@@ -18,26 +18,29 @@ I'm a Senior Software Engineer and Technical Lead with 10+ years of experience b
 
 ## Portfolio projects
 
-Four hands-on projects that show how I actually design and build things. Each one is Clean Architecture, dockerised, CI-enabled, with a README that documents the trade-offs.
+Five hands-on projects that show how I actually design and build things. Each one is Clean Architecture, dockerised, CI-enabled, with a README that documents the trade-offs.
 
 | Project | Stack | What it demonstrates |
 |---|---|---|
-| **auth-dotnet** | .NET 10 · OpenIddict · Postgres · Redis · Docker | OAuth 2.0 / OIDC identity provider with immediate JWT revocation via tv-claim + Redis. Refresh-token rotation with reuse detection. Five-project Clean Architecture (Domain / Application / Infrastructure / Server / Resource-Api). |
-| **payments-ledger-demo** | Java 21 · Spring Boot 3 · Postgres · Kafka · Testcontainers | Double-entry accounting ledger with balancing invariant enforced in the type system. Effectively-once payment processing via idempotency + outbox pattern. Kafka consumer with DLT + relay worker. Four Gradle modules. |
-| **kyc-screening-service** | Kotlin · Spring Boot 3 · MongoDB · Docker | Sanctions + PEP screening with framework-free domain sub-module (compiler-enforced dependency rule). Jaro-Winkler scoring with token-sort symmetry, DOB + country weighting. Explainable REVIEW / HIT decisions. |
-| **uk-address-lookup-service** | .NET 10 · Minimal APIs · Docker | High-performance UK address lookup service — the same shape as a 30M+ record system I built at scale, rebuilt as a public reference. |
+| ⭐ **[core-banking-platform](https://github.com/hafiz5007/core-banking-platform)** | Java 21 · Kotlin · Spring Boot 3 · Kafka (KRaft) · gRPC · PostgreSQL · Testcontainers · Docker | **12-service reference banking architecture.** Immutable double-entry ledger with balancing invariant, transactional outbox → Kafka for effectively-once event delivery, JWT-secured gRPC between services, saga-based payments with compensating reversal, KYC/AML screening, per-service audit. `docker compose up` to full stack in under 3 min. **196 tests including 22 Testcontainers integration classes + CI smoke test asserting all 4 Kafka topics.** 17 ADRs + 12 service walkthroughs. |
+| **[auth-dotnet](https://github.com/hafiz5007/auth-dotnet)** | .NET 10 · OpenIddict · Postgres · Redis · Docker | OAuth 2.0 / OIDC identity provider with immediate JWT revocation via tv-claim + Redis. Refresh-token rotation with reuse detection. Five-project Clean Architecture (Domain / Application / Infrastructure / Server / Resource-Api). |
+| **[payments-ledger-demo](https://github.com/hafiz5007/payments-ledger-demo)** | Java 21 · Spring Boot 3 · Postgres · Kafka · Testcontainers | Double-entry accounting ledger with balancing invariant enforced in the type system. Effectively-once payment processing via idempotency + outbox pattern. Kafka consumer with DLT + relay worker. Four Gradle modules. |
+| **[kyc-screening-service](https://github.com/hafiz5007/kyc-screening-service)** | Kotlin · Spring Boot 3 · MongoDB · Docker | Sanctions + PEP screening with framework-free domain sub-module (compiler-enforced dependency rule). Jaro-Winkler scoring with token-sort symmetry, DOB + country weighting. Explainable REVIEW / HIT decisions. |
+| **[uk-address-lookup-service](https://github.com/hafiz5007/uk-address-lookup-service)** | .NET 10 · Minimal APIs · Docker | High-performance UK address lookup service — the same shape as a 30M+ record system I built at scale, rebuilt as a public reference. |
 
 ## Tech stack
 
 <!-- Keep your existing badge blocks here — Languages & Frameworks, Cloud & DevOps, Databases & Data, Architecture & Practice -->
 
-**Languages & Frameworks** — C# · .NET 10 · ASP.NET Core · Java · Spring Boot · Kotlin · TypeScript · Angular · React
+**Languages & Frameworks** — Java · Spring Boot · Kotlin · C# · .NET 10 · ASP.NET Core · TypeScript · React · Angular
 
-**Cloud & DevOps** — AWS · GCP · IBM Cloud · Docker · Kubernetes · Azure DevOps · CI/CD · Cloudflare
+**Cloud & DevOps** — AWS · GCP · Docker · Kubernetes · **GitHub Actions** · Azure DevOps · CI/CD · **Ubuntu Server** · **Nginx** · **HAProxy** · Cloudflare · **Certbot / Let's Encrypt** · Backup & DR
 
-**Databases & Data** — SQL Server · Oracle · MySQL · MongoDB · Redis · Elasticsearch · Kafka · RabbitMQ
+**Databases & Data** — **PostgreSQL (incl. AWS Aurora)** · SQL Server · Oracle · MySQL · **MongoDB (replica sets)** · **Redis (Sentinel)** · Elasticsearch · **Apache Kafka** · RabbitMQ
 
-**Architecture & Practice** — Microservices · Distributed Systems · Event-Driven Architecture · Domain-Driven Design · Clean Architecture · Legacy Modernisation · Monolith Decomposition
+**Observability & Operations** — **Sentry** · Micrometer · Prometheus · Correlation-ID propagation · Structured logging · SLO / burn-rate alerting
+
+**Architecture & Practice** — Microservices · Distributed Systems · Event-Driven Architecture · Domain-Driven Design · Clean Architecture · **gRPC** · **Outbox Pattern** · **Saga Pattern** · **JWT Service-to-Service** · Legacy Modernisation · Monolith Decomposition · **Test-Driven Development (TDD)** · **Testcontainers**
 
 ## Career highlights
 
